@@ -19,7 +19,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {
         <Typography variant="h5" className={classes.title}>
           Travel Adivsor
         </Typography>
-        <Box display="flex">
+        {/* <Box display="flex">
           <Typography variant="h6" className={classes.title}>
             Explore new places
           </Typography>
@@ -34,7 +34,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {
               />
             </div>
           </Autocomplete>
-        </Box>
+        </Box> */}
       </Toolbar>
     </AppBar>
   );
